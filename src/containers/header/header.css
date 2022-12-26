@@ -1,0 +1,65 @@
+.gpt3__header-content {
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.gpt3__header-content h1, .gpt3__header-content p, .gpt3__header-content__input input, .gpt3__header-content__input button {
+    font-family: var(--font-family);
+}
+
+.gpt3__header-content p, .gpt3__header-content__input input, .gpt3__header-content__input button{
+    line-height: 27px;
+}
+
+.gpt3__header-content h1 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p {
+    color: var(--color-text);
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+.gpt3__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+}
+.gpt3__header-content__input input {
+    flex: 2;
+    background: var(--color-footer);
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid var(--color-footer);
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    min-height: 50px;
+    outline: none;
+    padding: 0 1rem;
+}
+
+.gpt3__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    background-color: #FF4820;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+}
+.gpt3__header-content__people {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
