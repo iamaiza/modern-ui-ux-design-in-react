@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 1051px) and (max-width: 1200px) {
     .gpt3__header-img img {
-        width: 140%;
+        width: 135%;
         height: 90%;
     }
 }
