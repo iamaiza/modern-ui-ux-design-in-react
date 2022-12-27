@@ -3,7 +3,15 @@ import './cta.css'
 
 const CTA = () => {
   return (
-    <div>CTA</div>
+    <div className='gpt3__cta d-flex align-center'>
+      <div className='gpt3__cta-content'>
+        <p>Request Early Access to Get Started</p>
+        <h3>Register Today & start exploring the endless possibilities.</h3>
+      </div>
+      <div className='gpt3__cta-btn d-flex align-center'>
+        <button type='button'>Get Started</button>
+      </div>
+    </div>
   )
 }
 export default CTA
