@@ -1,7 +1,6 @@
 .gpt3__footer {
     color: #fff;
     flex-direction: column;
-    justify-content: center;
     background-color: var(--color-footer);
 }
 
@@ -21,7 +20,6 @@
 }
 
 .gpt3__footer-btn {
-    justify-content: center;
     padding: 1rem;
     border: 1px solid #fff;
     text-align: center;
@@ -52,7 +50,6 @@
 
 .gpt3__footer-links_logo {
     flex-direction: column;
-    /* margin-right: 2rem; */
 }
 
 .gpt3__footer-links_logo img {

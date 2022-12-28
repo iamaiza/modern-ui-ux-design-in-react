@@ -4,13 +4,13 @@ import "./footer.css";
 
 const Footer = () => {
     return (
-        <div className="gpt3__footer section__padding d-flex align-center">
+        <div className="gpt3__footer section__padding d-flex align-center justify-center">
             <div className="gpt3__footer-heading">
                 <h1 className="gradient__text">
                     Do you want to step in to the future before others
                 </h1>
             </div>
-            <div className="gpt3__footer-btn d-flex align-center">
+            <div className="gpt3__footer-btn d-flex align-center justify-center">
                 <p>Request Early Access</p>
             </div>
 
