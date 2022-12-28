@@ -15,7 +15,9 @@ body {
 .align-center {
     align-items: center;
 }
-
+.justigy-center {
+    justify-content: center;
+}
 a {
     color: unset;
     text-decoration: none;
